@@ -1,4 +1,4 @@
-# Abstract Factory Pattern
+# Abstract Factory 
 
 class DepartmentFactory
   def create_department(name)
@@ -18,7 +18,7 @@ class EngineeringDepartmentFactory < DepartmentFactory
   end
 end
 
-# Factory Method Pattern
+# Factory Method 
 
 class Department
   attr_accessor :name, :head, :employee_count
